@@ -5,7 +5,7 @@ This frontend application allows users to interact with a MuleSoft application. 
 ## Prerequisites
 
 Before starting, ensure you have the following:
-
+- Download the .jar file from here: https://drive.google.com/file/d/1qtlY1syy5bKJT2KKR1Qtq5Jt1e4anG7T/view?usp=drive_link
 - Node.js (version 18 or higher)
 - npm (usually comes with Node.js)
 - SFTP credentials from SE Platform

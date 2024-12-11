@@ -149,7 +149,8 @@ Before starting, ensure you have the following:
    }
    ```
 
-3. In the `sftpNewFile` flow, update the `localPath` variable with your desired local folder path
+3. Open the Global Elements, select SFTP Config and edit the SFTP Connection Properties with your credentials from SE Platform
+4. In the `sftpNewFile` flow, update the `localPath` variable with your desired local folder path
 
 ### Running the MuleSoft Application
 

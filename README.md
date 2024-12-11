@@ -10,6 +10,8 @@ Before starting, ensure you have the following:
 - Node.js (version 18 or higher)
 - npm (usually comes with Node.js)
 - SFTP credentials from SE Platform
+- Visual Studio Code and/or Preferred IDE
+- Notepad to keep credentials
 
 ### Obtaining SFTP Credentials
 
@@ -44,12 +46,20 @@ Before starting, ensure you have the following:
 
 1. Navigate to the "Database" section in the left sidebar
 2. In database settings, find the extensions list
-3. Search for `pgvector` and enable it
+3. Search for `vector` and enable it
 
 #### Retrieving Connection Settings
 
-1. Go to "Settings" in the left sidebar, then "Database"
-2. Find the following connection settings:
+1. Once your Supabase Database is spun up, at the very top of the Navigation Menu, click the button labeled 'Connect'.
+2. In the Connection String tab, select Type = JDBC
+3. Copy the connection string for 'Transaction Pooler'
+   - example: jdbc:postgresql://aws-0-us-east-1.pooler.supabase.com:6543/postgres?user=postgres.kbffoiphnqxaghmnmbcw&password=[YOUR-PASSWORD]
+4. Extract the following connection properties:
+   - host = aws-0-us-east-1.pooler.supabase.com:6543
+   - port = 6543
+   - user = postgres.kbffoiphnqxaghmnmbc
+   - password = your-password-you-created
+   - database = postgres
 
    | Setting           | Value       |
    | ----------------- | ----------- |
@@ -59,14 +69,14 @@ Before starting, ensure you have the following:
    | POSTGRES_USER     | `REPLACEME` |
    | POSTGRES_PASSWORD | `REPLACEME` |
 
-3. Copy the provided connection string for easy reference
+6. Copy the provided connection properties for easy reference
 
 ### Project Setup
 
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/dcampuzano101/mulesoft-mac-frontend.git
+   git clone https://github.com/dcampuzano101/mulesoft-mac-demo.git
    cd mulesoft-mac-frontend
    ```
 

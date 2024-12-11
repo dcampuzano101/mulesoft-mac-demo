@@ -77,7 +77,7 @@ Before starting, ensure you have the following:
 
    ```bash
    git clone https://github.com/dcampuzano101/mulesoft-mac-demo.git
-   cd mulesoft-mac-frontend
+   cd mulesoft-mac-demo
    ```
 
 2. **Install dependencies**

@@ -73,20 +73,21 @@ Before starting, ensure you have the following:
 
 ### Project Setup
 
-1. **Clone the repository**
+1. **Open up Terminal**
+2. **Clone the repository**
 
    ```bash
    git clone https://github.com/dcampuzano101/mulesoft-mac-demo.git
    cd mulesoft-mac-demo
    ```
 
-2. **Install dependencies**
+3. **Install dependencies**
 
    ```bash
    npm install
    ```
 
-3. **Set up environment variables**
+4. **Set up environment variables**
 
    ```bash
    cp .env.example .env.local
@@ -103,7 +104,7 @@ Before starting, ensure you have the following:
 
    Update other variables as needed.
 
-4. **Run the project locally**
+5. **Run the project locally**
 
    ```bash
    npm run dev
